@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   devise_for :waiters
   devise_for :users
 
+  get '/dribble_shots' => 'dribble_shots#index'
+  
+
   resources :users, only: [:index, :show, :destroy]
   resources :waiters, only: [:index, :show, :destroy]
   resources :admins, only: [:index, :show, :destroy]
