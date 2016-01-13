@@ -58,15 +58,15 @@
             <tbody>
               <%= @items_in_order.each do |o| %>
                 <tr>
-					<td>
-						<%= @order.id %>
-					</td>
+        					<td>
+        						<%= @order.id %>
+        					</td>
                   <td>
-						<%= o.name %>
-				  </td>
-				  <td>
-					<%= number_to_currency(o.price) %>
-				  </td>
+        						<%= o.name %>
+        				  </td>
+        				  <td>
+        					<%= number_to_currency(o.price) %>
+        				  </td>
                 </tr><!-- table rows -->
               <% end %>
             </tbody><!-- table body -->
