@@ -23,9 +23,8 @@ Things you may want to cover:
 
 * ...
 
+An organizational platform where users can save their favorite cars and dealer contacts in one place. This app is intended for a consumer who is looking to purchase a new/used car.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
 
 NOTES:
 Layout of the app, this can edited however many times depending on our updates
