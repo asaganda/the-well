@@ -16,9 +16,9 @@ Item.create(name:"Vodka", price: 9.00);
 Item.create(name:"Rum", price: 8.00);
 
 OrderItem.destroy_all
-OrderItem.create(order_id: 1, name: "Burger");
-OrderItem.create(order_id: 1, name: "Wings");
-OrderItem.create(order_id: 1, name: "Vodka");
+OrderItem.create(order_id: 1, item_id: 1);
+OrderItem.create(order_id: 1, item_id: 2);
+OrderItem.create(order_id: 1, item_id: 3);
 
 Order.destroy_all
 Order.create(user_id: 1, waiter_id: 1, table_number: 1);
