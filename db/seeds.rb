@@ -19,6 +19,7 @@ OrderItem.destroy_all
 OrderItem.create(order_id: 1, item_id: 1);
 OrderItem.create(order_id: 1, item_id: 2);
 OrderItem.create(order_id: 1, item_id: 3);
+OrderItem.create(order_id: 1, item_id: 4);
 
 Order.destroy_all
 Order.create(user_id: 1, waiter_id: 1, table_number: 1);
